@@ -46,10 +46,10 @@ public class SettingsService : ApplicationSettingsBase
     }
 
     [UserScopedSetting]
-    public char[] LetterKeyC
+    public char[] LetterKeyD
     {
-        get { return (char[])this["LetterKeyC"]; }
-        set { this["LetterKeyC"] = value; }
+        get { return (char[])this["LetterKeyD"]; }
+        set { this["LetterKeyD"] = value; }
     }
 
     [UserScopedSetting]
@@ -60,10 +60,38 @@ public class SettingsService : ApplicationSettingsBase
     }
 
     [UserScopedSetting]
+    public char[] LetterKeyH
+    {
+        get { return (char[])this["LetterKeyH"]; }
+        set { this["LetterKeyH"] = value; }
+    }
+
+    [UserScopedSetting]
     public char[] LetterKeyI
     {
         get { return (char[])this["LetterKeyI"]; }
         set { this["LetterKeyI"] = value; }
+    }
+
+    [UserScopedSetting]
+    public char[] LetterKeyL
+    {
+        get { return (char[])this["LetterKeyL"]; }
+        set { this["LetterKeyL"] = value; }
+    }
+
+    [UserScopedSetting]
+    public char[] LetterKeyM
+    {
+        get { return (char[])this["LetterKeyM"]; }
+        set { this["LetterKeyM"] = value; }
+    }
+
+    [UserScopedSetting]
+    public char[] LetterKeyN
+    {
+        get { return (char[])this["LetterKeyN"]; }
+        set { this["LetterKeyN"] = value; }
     }
 
     [UserScopedSetting]
@@ -74,17 +102,31 @@ public class SettingsService : ApplicationSettingsBase
     }
 
     [UserScopedSetting]
+    public char[] LetterKeyR
+    {
+        get { return (char[])this["LetterKeyR"]; }
+        set { this["LetterKeyR"] = value; }
+    }
+
+    [UserScopedSetting]
+    public char[] LetterKeyS
+    {
+        get { return (char[])this["LetterKeyS"]; }
+        set { this["LetterKeyS"] = value; }
+    }
+
+    [UserScopedSetting]
+    public char[] LetterKeyT
+    {
+        get { return (char[])this["LetterKeyT"]; }
+        set { this["LetterKeyT"] = value; }
+    }
+
+    [UserScopedSetting]
     public char[] LetterKeyU
     {
         get { return (char[])this["LetterKeyU"]; }
         set { this["LetterKeyU"] = value; }
-    }
-
-    [UserScopedSetting]
-    public char[] LetterKeyY
-    {
-        get { return (char[])this["LetterKeyY"]; }
-        set { this["LetterKeyY"] = value; }
     }
 
     public void SetLetterKey(LetterKey letter, char[] value)
@@ -107,19 +149,31 @@ public class SettingsService : ApplicationSettingsBase
         switch (letter)
         {
             case LetterKey.A:
-                return new char[] { 'à', 'â', 'á', 'ä', 'ã' };
-            case LetterKey.C:
-                return new char[] { 'ç' };
+                return new char[] { 'ā' };
+            case LetterKey.D:
+                return new char[] { 'ḍ' };
             case LetterKey.E:
-                return new char[] { 'é', 'è', 'ê', 'ë', '€' };
+                return new char[] { 'ē' };
+            case LetterKey.H:
+                return new char[] { 'ḥ' };
             case LetterKey.I:
-                return new char[] { 'î', 'ï', 'í', 'ì' };
+                return new char[] { 'ī' };
+            case LetterKey.L:
+                return new char[] { 'ḷ' };
+            case LetterKey.M:
+                return new char[] { 'ṁ' , 'ṃ' };
+            case LetterKey.N:
+                return new char[] { 'ṇ' , 'ṅ' , 'ñ' };
             case LetterKey.O:
-                return new char[] { 'ô', 'ö', 'ó', 'ò', 'õ' };
+                return new char[] { 'ō' };
+            case LetterKey.R:
+                return new char[] { 'ṛ' , '₹' };
+            case LetterKey.S:
+                return new char[] { 'ṣ' , 'ś' };
+            case LetterKey.T:
+                return new char[] { 'ṭ' };
             case LetterKey.U:
-                return new char[] { 'û', 'ù', 'ü', 'ú' };
-            case LetterKey.Y:
-                return new char[] { 'ÿ', 'ý' };
+                return new char[] { 'ū' };
         }
 
         throw new ArgumentException("Letter {0} is missing", letter.ToString());
