@@ -4,6 +4,11 @@
 Press and hold letter then hit space bar or arrow key to select the accent. For example `e` & `⎵`. With spacebar, repeat stroke to change letter. When releasing the letter key, the accent is inserted.
 
 The software is currently working with `a`, `d`, `e`, `h`, `i`, `l`, `m`, `n`, `o`, `r`, `s`, `t`, `u`.
+
+## Requirements
+This tool requires the following components to be installed to run:
+- .NET 6.0 Desktop Runtime
+
 ## Download
 Checkout the [Releases](https://github.com/alphayama/PowerIAST/releases) section!
 
