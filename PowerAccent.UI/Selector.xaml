@@ -10,7 +10,7 @@
     <Grid>
         <tb:TaskbarIcon x:Name="TaskbarIcon"
             IconSource="a-icon.ico"
-            ToolTipText="PowerAccent">
+            ToolTipText="PowerIAST">
             <tb:TaskbarIcon.ContextMenu>
                 <ContextMenu>
                     <MenuItem Header="Settings" Click="Settings_Click" />
