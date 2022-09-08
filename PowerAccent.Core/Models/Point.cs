@@ -1,4 +1,4 @@
-﻿namespace PowerAccent.Core;
+﻿namespace PowerIAST.Core;
 
 public struct Point
 {

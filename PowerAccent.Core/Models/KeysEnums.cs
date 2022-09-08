@@ -1,6 +1,6 @@
 ﻿using Vanara.PInvoke;
 
-namespace PowerAccent.Core;
+namespace PowerIAST.Core;
 
 public enum LetterKey
 {

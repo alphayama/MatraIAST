@@ -1,10 +1,10 @@
 ﻿using MahApps.Metro.Controls;
-using PowerAccent.Core.Services;
+using PowerIAST.Core.Services;
 using System;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace PowerAccent.UI.SettingsPage
+namespace PowerIAST.UI.SettingsPage
 {
     /// <summary>
     /// Logique d'interaction pour OptionsPage.xaml

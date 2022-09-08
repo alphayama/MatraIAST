@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Windows;
-using Point = PowerAccent.Core.Point;
-using Size = PowerAccent.Core.Size;
+using Point = PowerIAST.Core.Point;
+using Size = PowerIAST.Core.Size;
 
-namespace PowerAccent.UI;
+namespace PowerIAST.UI;
 
 public partial class Selector : Window
 {
-    private Core.PowerAccent _powerAccent = new Core.PowerAccent();
+    private Core.PowerIAST _powerAccent = new Core.PowerIAST();
 
     public Selector()
     {

@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace PowerAccent.Core.Tools;
+namespace PowerIAST.Core.Tools;
 
 internal class KeyboardListener : IDisposable
 {

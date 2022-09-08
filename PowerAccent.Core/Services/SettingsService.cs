@@ -1,6 +1,6 @@
 ﻿using System.Configuration;
 
-namespace PowerAccent.Core.Services;
+namespace PowerIAST.Core.Services;
 
 public class SettingsService : ApplicationSettingsBase
 {

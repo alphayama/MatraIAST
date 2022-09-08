@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using System.Windows;
 
-namespace PowerAccent.UI
+namespace PowerIAST.UI
 {
     /// <summary>
     /// Interaction logic for App.xaml
@@ -12,7 +12,7 @@ namespace PowerAccent.UI
 
         protected override void OnStartup(StartupEventArgs e)
         {
-            const string appName = "PowerAccent";
+            const string appName = "PowerIAST";
             bool createdNew;
 
             _mutex = new Mutex(true, appName, out createdNew);

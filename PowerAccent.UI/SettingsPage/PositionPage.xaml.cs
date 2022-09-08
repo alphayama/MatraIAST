@@ -1,8 +1,8 @@
-﻿using PowerAccent.Core.Services;
+﻿using PowerIAST.Core.Services;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace PowerAccent.UI.SettingsPage
+namespace PowerIAST.UI.SettingsPage
 {
     /// <summary>
     /// Logique d'interaction pour Position.xaml

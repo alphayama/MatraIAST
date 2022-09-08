@@ -1,10 +1,10 @@
 ﻿using System.Diagnostics;
-using PowerAccent.Core.Services;
-using PowerAccent.Core.Tools;
+using PowerIAST.Core.Services;
+using PowerIAST.Core.Tools;
 
-namespace PowerAccent.Core;
+namespace PowerIAST.Core;
 
-public class PowerAccent : IDisposable
+public class PowerIAST : IDisposable
 {
     private readonly SettingsService _settingService = new SettingsService();
     private readonly KeyboardListener _keyboardListener = new KeyboardListener();
@@ -18,7 +18,7 @@ public class PowerAccent : IDisposable
     public event Action<bool, char[]> OnChangeDisplay;
     public event Action<int, char> OnSelectCharacter;
 
-    public PowerAccent()
+    public PowerIAST()
     {
         _keyboardListener.KeyDown += PowerAccent_KeyDown;
         _keyboardListener.KeyUp += PowerAccent_KeyUp;

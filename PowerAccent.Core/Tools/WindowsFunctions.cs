@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using Vanara.PInvoke;
 
-namespace PowerAccent.Core.Tools;
+namespace PowerIAST.Core.Tools;
 
 internal static class WindowsFunctions
 {

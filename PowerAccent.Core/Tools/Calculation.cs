@@ -1,6 +1,6 @@
-﻿using PowerAccent.Core.Services;
+﻿using PowerIAST.Core.Services;
 
-namespace PowerAccent.Core.Tools
+namespace PowerIAST.Core.Tools
 {
     internal static class Calculation
     {

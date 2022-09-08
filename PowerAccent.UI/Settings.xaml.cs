@@ -1,8 +1,8 @@
-﻿using PowerAccent.UI.SettingsPage;
+﻿using PowerIAST.UI.SettingsPage;
 using System;
 using System.Windows;
 
-namespace PowerAccent.UI
+namespace PowerIAST.UI
 {
     /// <summary>
     /// Logique d'interaction pour Settings.xaml

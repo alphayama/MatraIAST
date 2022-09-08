@@ -7,7 +7,7 @@
     <UseWPF>true</UseWPF>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <ApplicationIcon>a-icon.ico</ApplicationIcon>
-    <AssemblyName>PowerAccent</AssemblyName>
+    <AssemblyName>PowerIAST</AssemblyName>
 	<XamlDebuggingInformation>True</XamlDebuggingInformation>
   </PropertyGroup>
 
@@ -29,7 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PowerAccent.Core\PowerAccent.Core.csproj" />
+    <ProjectReference Include="..\PowerAccent.Core\PowerIAST.Core.csproj" />
   </ItemGroup>
 	
 </Project>

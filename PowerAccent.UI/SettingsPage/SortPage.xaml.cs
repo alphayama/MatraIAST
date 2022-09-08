@@ -1,5 +1,5 @@
-﻿using PowerAccent.Core;
-using PowerAccent.Core.Services;
+﻿using PowerIAST.Core;
+using PowerIAST.Core.Services;
 using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -9,7 +9,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 
-namespace PowerAccent.UI.SettingsPage;
+namespace PowerIAST.UI.SettingsPage;
 
 /// <summary>
 /// Logique d'interaction pour SortPage.xaml
