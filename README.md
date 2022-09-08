@@ -5,9 +5,12 @@ Press and hold letter then hit space bar or arrow key to select the accent. For 
 
 The software is currently working with `a`, `d`, `e`, `h`, `i`, `l`, `m`, `n`, `o`, `r`, `s`, `t`, `u`.
 ## Download
-I haven't released the installer for the project yet.
+Checkout the [Releases](https://github.com/alphayama/PowerIAST/releases) section!
+
+Note: The setup will get flagged as potential malware as it is not signed. I am trying to find a way to fix this.
 
 ## Problems known
+- The selector bar is not visible on the secondary display
 - (Experimental feature) Inside browsers & some other softwares, the tool can't detect the caret position. So default is applied, meaning up center of the main window
 
 ## The future
