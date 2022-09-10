@@ -10,7 +10,14 @@ This tool requires the following components to be installed to run:
 - .NET 6.0 Desktop Runtime
 
 ## Download
-Checkout the [Releases](https://github.com/alphayama/PowerIAST/releases) section!
+### winget
+You can install using winget: `winget install poweriast`.
+The package name is: `Alphayama.PowerIAST`.
+
+The setup file on winget is signed and won't get flagged as potential malware.
+
+### Download from Releases section 
+You may download the setup file from [Releases](https://github.com/alphayama/PowerIAST/releases) section!
 
 Note: The setup will get flagged as potential malware as it is not signed. I am trying to find a way to fix this.
 
