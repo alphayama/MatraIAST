@@ -1,6 +1,8 @@
 # MatraIAST
 _Fork of [PowerAccent](https://github.com/damienleroy/PowerAccent)_
 
+_Previously known as **PowerIAST**_
+
 ## How it works
 Press and hold letter then hit space bar or arrow key to select the accent. For example `e` & `⎵`. With spacebar, repeat stroke to change letter. When releasing the letter key, the accent is inserted.
 
